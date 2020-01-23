@@ -120,7 +120,7 @@ body {
 <body>
 <div class="cloudsbox">
 <?php foreach($containersClouds as $container) { ?>
-  <div class="Cloudsbox__container">
+  <div class="cloudsbox__container">
       <div class="cloudsbox__cloud anim<?= $container ?>">
         ☁️
       </div>
