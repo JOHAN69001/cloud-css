@@ -7,11 +7,11 @@ for ($i = 1; $i <= $NumberContainersClouds; $i++) {
 
 <style>
 body {
-  width: 100%;
-  height:100%;
+  width: 100vw;
+  height:100vh;
   margin: 0;
   padding: 0;
-  background-color: blue;
+  background: linear-gradient(to bottom, #2d91c2 0%,#1e528e 100%);
   z-index: 1;
 }
 
@@ -114,7 +114,6 @@ body {
     opacity: 0;
   }
 }
-
 </style>
 
 <body>
